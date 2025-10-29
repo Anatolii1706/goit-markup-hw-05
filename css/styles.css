@@ -805,11 +805,11 @@ label.element-name {
   margin-bottom: 4px;
 }
 
-.input-plus-icon {
+div.input-plus-icon {
   position: relative;
 }
 
-.input-plus-icon-class {
+.input-plus-icon-modal {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
