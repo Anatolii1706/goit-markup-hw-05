@@ -673,6 +673,7 @@ input::placeholder {
   height: 100%;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -721,6 +722,7 @@ input::placeholder {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 
 .policy {
@@ -744,7 +746,7 @@ input::placeholder {
   color: #4d5ae5;
 }
 
-.submit-btn {
+.exit-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -762,8 +764,8 @@ input::placeholder {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.submit-btn:hover,
-.submit-btn:focus {
+.exit-btn:hover,
+.exit-btn:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -781,5 +783,11 @@ input::placeholder {
   gap: 24px;
 }
 
-.form-label {
+.btn-icon-exit {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.exit-btn:hover,
+.exit-btn:focus {
+  fill: #ffffff;
 }
