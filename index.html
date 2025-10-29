@@ -659,23 +659,24 @@
           </div>
           <div class="comment-area">
             <label class="element-name" for="user-comment">Comment</label>
+            <textarea
+              class="comment"
+              id="user-comment"
+              name="Comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <textarea
-            class="comment"
-            id="user-comment"
-            name="Comment"
-            rows="5"
-            placeholder="Text input"
-          ></textarea>
-
-          <label
-            ><input
+          <div class="checkbox-form">
+            <input
               type="checkbox"
+              id="user-privacy"
               class="policy"
-              name="answer"
-              value="policy"
+              name="user-privacy"
+              value="true"
             />I accept the terms and conditions of the
-            <span class="privat-policy">Privacy Policy</span></label
+            <span class="privat-policy">Privacy Policy</span>
+          </div>
           >
           <button type="button" class="submit-btn" disabled>Send</button>
         </form>
