@@ -633,6 +633,7 @@ input::placeholder {
 }
 
 .form-sub-button {
+  display: block;
   background: #4d5ae5;
   border-radius: 4px;
   padding: 8px 24px;
@@ -668,6 +669,9 @@ input::placeholder {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
   z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-form {
@@ -679,6 +683,12 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .comment {
@@ -686,4 +696,55 @@ input::placeholder {
   border-radius: 4px;
   width: 360px;
   height: 120px;
+}
+
+.modal-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.policy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  width: 360px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.privat-policy {
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.submit-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  position: center;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #404bbf;
 }
