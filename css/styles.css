@@ -871,8 +871,9 @@ div.input-plus-icon {
 
 .input-check:focus + .privacy > .privat-policy {
   border-color: #404bbf;
+}
 
-. .submit-btn {
+.submit-btn {
   display: block;
   min-width: 169px;
   height: 56px;
