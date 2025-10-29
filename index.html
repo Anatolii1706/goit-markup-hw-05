@@ -593,7 +593,9 @@
             </label>
             <button class="form-sub-button" type="submit">
               Subscribe
-              <svg class="button-icon" width="24" height="24"></svg>
+              <svg class="button-icon" width="24" height="24">
+                <use href="./images/tg.svg"></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -611,8 +613,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="order-form">
-          <div class="first-element">
-            <label class="first-element-name" for="user-name"> Name </label>
+          <div class="elements">
+            <label class="element-name" for="user-name"> Name </label>
           </div>
           <div class="input-plus-icon">
             <input
@@ -621,17 +623,40 @@
               name="username"
               class="input-plus-icon-class"
             />
-            <svg></svg>
+            <svg class="user-icon" width="18" height="24">
+              <use href="./images/modalicons.svg#icon-name"></use>
+            </svg>
+          </div>
+          <div class="elements">
+            <label class="element-name" for="user-phone">Phone</label>
+          </div>
+          <div class="input-plus-icon">
+            <input
+              id="user-phone"
+              type="text"
+              name="phone"
+              class="input-plus-icon-class"
+            />
+            <svg class="user-icon" width="18" height="24">
+              <use href="./images/modalicons.svg#icon-phone"></use>
+            </svg>
           </div>
 
-          <label>
-            Phone
-            <input type="tel" name="contact_tel" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" />
-          </label>
+          <div class="elements">
+            <label class="element-email" for="user-email">E-mail</label>
+          </div>
+          <div class="input-plus-icon">
+            <input
+              id="user-email"
+              type="email"
+              name="email"
+              class="input-plus-icon-class"
+            />
+            <svg class="user-icon" width="18" height="24">
+              <use href="./images/modalicons.svg#icon-email"></use>
+            </svg>
+          </div>
+
           <label>
             Comment
             <textarea
