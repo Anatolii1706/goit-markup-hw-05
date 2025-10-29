@@ -613,14 +613,22 @@
           Leave your contacts and we will call you back
         </p>
         <form class="order-form">
-          <div></div>
-          <label>
-            Name
-            <input type="text" name="username" required />
-          </label>
+          <div class="first-element">
+            <label class="first-element-name" for="user-name"> Name </label>
+          </div>
+          <div class="input-plus-icon">
+            <input
+              id="user-name"
+              type="text"
+              name="username"
+              class="input-plus-icon-class"
+            />
+            <svg></svg>
+          </div>
+
           <label>
             Phone
-            <input type="tel" name="contact_tel" required />
+            <input type="tel" name="contact_tel" />
           </label>
           <label>
             Email
