@@ -673,7 +673,10 @@ input::placeholder {
   height: 100%;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
+  padding-top: 72px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 
 .modal {
@@ -809,7 +812,7 @@ div.input-plus-icon {
   position: relative;
 }
 
-input .input-plus-icon-modal {
+.input-plus-icon-modal {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -820,7 +823,7 @@ input .input-plus-icon-modal {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input .input-plus-icon-modal:focus {
+.input-plus-icon-modal:focus {
   border-color: #4d5ae5;
 }
 
