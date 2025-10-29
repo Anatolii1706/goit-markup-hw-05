@@ -623,37 +623,45 @@ input::placeholder {
   color: #fff;
 }
 
-.form-label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #fff;
+.form-sub-button {
+min-width: 165px;
+height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: "Roboto", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #ffffff;
+ cursor: pointer;
+ background-color: #4D5AE5;
+ border: none;
+ border-radius: 4px;
 }
 
-.form-sub-button {
-  display: block;
-  background: #4d5ae5;
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
+.button-icon {
+  margin-left: 16px;
 }
 
 .form-sub-input {
-  background: #2e2f42;
-  border: 1px solid #fff;
+background-color: transparent;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.form-label input::placeholder {
+  color: #ffffff;
 }
 
 .modal-overlay {
@@ -667,7 +675,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
 }
 
@@ -752,8 +760,25 @@ input::placeholder {
   text-align: center;
   color: #fff;
 }
+margin-bottom: 16px
 
 .submit-btn:hover,
 .submit-btn:focus {
   background-color: #404bbf;
+}
+
+.footer-subscr {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.form-sub {
+  display: flex;
+  gap 24px;
+}
+
+.form-label {
 }
