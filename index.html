@@ -594,7 +594,7 @@
             <button class="form-sub-button" type="submit">
               Subscribe
               <svg class="button-icon" width="24" height="24">
-                <use href="./images/tg.svg"></use>
+                <use href="./images/iconss.svg#icon-tg"></use>
               </svg>
             </button>
           </form>
@@ -633,7 +633,7 @@
             <div class="input-plus-icon">
               <input
                 id="user-phone"
-                type="text"
+                type="phone"
                 name="user-phone"
                 class="input-plus-icon-modal"
               />
@@ -644,11 +644,11 @@
           </div>
 
           <div class="elements">
-            <label class="element-name" for="user-email"> E-mail </label>
+            <label class="element-name" for="user-email"> Email </label>
             <div class="input-plus-icon">
               <input
                 id="user-email"
-                type="text"
+                type="email"
                 name="user-email"
                 class="input-plus-icon-modal"
               />
@@ -671,16 +671,20 @@
             <input
               type="checkbox"
               id="user-privacy"
-              class="visually-hidden"
+              class="input-check visually-hidden"
               name="user-privacy"
               value="true"
             />
             <label for="user-privacy" class="privacy">
+              <span class="privat-policy">
+                <svg class="check-empty" width="10" height="8">
+                  <use href="./images/iconss.svg#icon-yes"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <span class="privat-policy">Privacy Policy</span>
+              <a href="Privacy Policy" class="input-check-link"></a>
             </label>
           </div>
-          >
           <button type="button" class="submit-btn" disabled>Send</button>
         </form>
       </div>
