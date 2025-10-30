@@ -841,14 +841,14 @@ div.input-plus-icon {
   margin-bottom: 24px;
 }
 
-.privacy {
+.input-check-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.privat-policy {
+.check-empty {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -860,6 +860,16 @@ div.input-plus-icon {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.input-check:checked + .input-check-text > .check-empty {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+
+.input-check:focus + .input-check-text > .check-empty {
+  border-color: #404bbf;
 }
 
 .input-check-link {
@@ -876,18 +886,6 @@ div.input-plus-icon {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
-}
-
-.checkbox-form span {
-  display: inline-flex; /* робимо span flex-контейнером */
-  align-items: center; /* вертикальне центрування вмісту */
-  justify-content: center; /* горизонтальне центрування вмісту */
-}
-
-input:checked + label .checkbox-span {
-  background-color: var(--checkbox-checked-bg, #404bbf);
-  border: none;
-  fill: #f4f4fd;
 }
 
 .submit-btn {
