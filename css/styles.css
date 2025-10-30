@@ -857,7 +857,6 @@ div.input-plus-icon {
 
 .checkbox-form {
   margin-bottom: 24px;
-  display: inline-flex;
 }
 
 .privacy {
@@ -865,6 +864,10 @@ div.input-plus-icon {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.privat-policy {
+  display: inline-flex;
 }
 
 input[type="checkbox"]:checked + label > .privat-policy {
@@ -876,10 +879,6 @@ input[type="checkbox"]:checked + label > .privat-policy {
 input[type="checkbox"] + label > .privat-policy svg {
   width: 10px;
   height: 8px;
-}
-
-.privat-policy {
-  display: inline-flex;
 }
 
 .submit-btn {
