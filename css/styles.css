@@ -764,12 +764,6 @@ input::placeholder {
   color: #4d5ae5;
 }
 
-.privacy span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .exit-btn {
   position: absolute;
   top: 24px;
@@ -863,6 +857,7 @@ div.input-plus-icon {
 
 .checkbox-form {
   margin-bottom: 24px;
+  display: inline-flex;
 }
 
 .privacy {
