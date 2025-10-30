@@ -339,7 +339,7 @@ section {
   padding-bottom: 120px;
 }
 
-.visually-hidden {
+.features .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -864,6 +864,32 @@ div.input-plus-icon {
 
 .input-check-link {
   color: #4d5ae5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.checkbox-form span {
+  display: inline-flex; /* робимо span flex-контейнером */
+  align-items: center; /* вертикальне центрування вмісту */
+  justify-content: center; /* горизонтальне центрування вмісту */
+}
+
+:root {
+  --checkbox-checked-bg: #404bbf; /* змінна для кольору фону */
+}
+
+.checkbox-form input:checked + span {
+  background-color: var(--checkbox-checked-bg);
 }
 
 .submit-btn {
