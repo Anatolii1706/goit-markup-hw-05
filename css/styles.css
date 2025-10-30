@@ -774,12 +774,12 @@ input::placeholder {
   fill: transparent;
 }
 
-.privat-policy span {
-  display: inline-flex;
-}
-
 .input-check-link {
   color: #4d5ae5;
+}
+
+.privat-policy span {
+  display: inline-flex;
 }
 
 .exit-btn {
