@@ -746,7 +746,7 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
-input[type="checkbox"] + label > .privat-policy {
+.privat-policy {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -754,9 +754,9 @@ input[type="checkbox"] + label > .privat-policy {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex; /* Ця вимога */
-  align-items: center; /* вертикальне центрування */
-  justify-content: center; /* горизонтальне центрування */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   fill: transparent;
 }
 
