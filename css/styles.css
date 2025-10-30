@@ -707,9 +707,12 @@ input::placeholder {
   color: #8e8f99;
 }
 
-.order-form input:first-of-type:focus {
+.order-form input:focus {
   border-color: #4d5ae5;
-  outline: none;
+}
+
+.input-plus-icon input:focus + .user-icon {
+  color: #4d5ae5;
 }
 
 .comment {
