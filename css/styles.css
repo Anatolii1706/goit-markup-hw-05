@@ -884,12 +884,10 @@ div.input-plus-icon {
   justify-content: center; /* горизонтальне центрування вмісту */
 }
 
-:root {
-  --checkbox-checked-bg: #404bbf; /* змінна для кольору фону */
-}
-
-.checkbox-form input:checked + span {
-  background-color: var(--checkbox-checked-bg);
+input:checked + label .checkbox-span {
+  background-color: var(--checkbox-checked-bg, #404bbf);
+  border: none;
+  fill: #f4f4fd;
 }
 
 .submit-btn {
