@@ -641,6 +641,10 @@ input::placeholder {
   border-radius: 4px;
 }
 
+.subscription {
+  margin-left: 80px;
+}
+
 .button-icon {
   margin-left: 16px;
 }
@@ -746,24 +750,6 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
-.privat-policy {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-
-.input-check-link {
-  color: #4d5ae5;
-}
-
 .exit-btn {
   position: absolute;
   top: 24px;
@@ -786,6 +772,7 @@ input::placeholder {
 .exit-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .footer-subscr {
@@ -806,11 +793,6 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.exit-btn:hover,
-.exit-btn:focus {
-  fill: #ffffff;
-}
-
 .elements {
   margin-bottom: 8px;
 }
@@ -826,10 +808,6 @@ label.element-name {
 
 div.input-plus-icon {
   position: relative;
-}
-
-.privat-policy {
-  display: inline-flex !important;
 }
 
 .input-plus-icon-modal {
@@ -871,18 +849,21 @@ div.input-plus-icon {
 }
 
 .privat-policy {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
-input[type="checkbox"]:checked + label > .privat-policy {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
-input[type="checkbox"] + label > .privat-policy svg {
-  width: 10px;
-  height: 8px;
+.input-check-link {
+  color: #4d5ae5;
 }
 
 .submit-btn {
