@@ -876,6 +876,10 @@ div.input-plus-icon {
   color: #4d5ae5;
 }
 
+.check-field span {
+  display: inline-flex;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
