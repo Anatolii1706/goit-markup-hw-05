@@ -878,6 +878,10 @@ input[type="checkbox"] + label > .privat-policy svg {
   height: 8px;
 }
 
+.privat-policy {
+  display: inline-flex;
+}
+
 .submit-btn {
   display: block;
   min-width: 169px;
